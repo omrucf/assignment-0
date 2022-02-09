@@ -15,7 +15,7 @@ int main(){
         min=sec/60;
         sec-=(min*60);
     }
-    cout<<"days: "<<day<<"\nhours: "<<hr<<"\nminutes: "<<min<<"\nseconde: "<<sec<<endl;
+    cout<<"days: "<<day<<"\nhours: "<<hr<<"\nminutes: "<<min<<"\nseconds: "<<sec<<endl;
         
     return 0;
 }
