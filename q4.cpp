@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    int day,hr,min,sec;
+    int day=0,hr=0,min=0,sec=0;
     cout<<"please enter the number of seconds: ";
     cin>>sec;
     while(sec>59){
