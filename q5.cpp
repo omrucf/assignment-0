@@ -8,13 +8,12 @@ bool CheckNum(int a[], int start, int end, int num) {
 
     if(end==start)
         return false;
-    else{
-    if(a[end]==num)
-        return true;
+    else if (a[end]==num){
+        return true;}
     else{
         return CheckNum(a,start,end-1,num);
     }
-    }
+    
 
 }
 int main(){
