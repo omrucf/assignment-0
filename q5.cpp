@@ -6,7 +6,7 @@ using namespace std;
 
 bool CheckNum(int a[], int start, int end, int num) {
 
-    if(end==start)
+    if(end<start)
         return false;
     else if (a[end]==num){
         return true;}
